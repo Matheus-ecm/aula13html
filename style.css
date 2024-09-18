@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    background-color: black;
+}
+
+header{
+    background-color: rgb(7, 7, 8);
+    padding: 2 1rem; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link li{
+    margin: 0;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: backgroud-color 0.3s;
+}
+
+.nav-link a:hover {
+    background-color: gray;
+    border-radius: 3px;
+}
+
+.dowload-btn{
+    background-color: orangered;
+    border-radius: 3px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url(Fortnite.jpg);
+    height: 300px;
+    color: aliceblue;
+}
+
+.hero button{
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.jogos img{
+    width: 1519px;
+    height: 340px;
+}
